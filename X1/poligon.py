@@ -1,6 +1,8 @@
 class Polygon:
-    def __int__(self):
-        print('This is a poligon')
+    def __init__(self, sides):
+        print('P')
+        self.sides = sides
+
 
 
 class Triangle:
@@ -8,12 +10,9 @@ class Triangle:
 
 my_polygon = Polygon()
 
-your_poligon = Polygon()
+print(f"ennek a polygonnak {my_polygon.sides} oldala van")
 
-
-
-#print(my_polygon)
-#print(id(my_polygon))
-#print(your_poligon)
-#print(id(your_poligon))x
-
+# print(my_polygon)
+# print(id(my_polygon))
+# print(your_poligon)
+# print(id(your_poligon))x
